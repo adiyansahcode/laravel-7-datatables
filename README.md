@@ -4,8 +4,8 @@
     </a>
 </p>
 
-# Laravel-Crud
-simple CRUD project created with laravel v7
+# Laravel-7-Datatables
+simple CRUD project created with laravel v7 with datatables
 
 ## Requirements
 
