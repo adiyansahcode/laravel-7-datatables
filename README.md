@@ -4,7 +4,7 @@
     </a>
 </p>
 
-# Laravel-7-Datatables
+# Laravel 7 Datatables
 simple CRUD project created with laravel v7 with datatables
 
 ## Requirements
@@ -29,7 +29,14 @@ php artisan storage:link
 * for optimize server production `composer run-script optimize-prod`
 * for optimize server development `composer run-script optimize-dev`
 * run Migration and Seeder `php artisan migrate:fresh --seed`
-* run server `php artisan serve --port=8080`
+* run server with php artisan
+```
+php artisan serve --port=8080
+```
+* run server with php native
+```
+php -S 127.0.0.1:8080 -t public
+```
 * done, just try run your project in browser to `http://127.0.0.1:8080`
 * **nginx server is recommended**
 
